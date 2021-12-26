@@ -11,6 +11,7 @@ const Nav = () => {
                     width={90}
                     height={50}
                     alt='logo'
+                    className={navStyles.image}
                     />
                 </div>
                 <ul className={navStyles.list}>

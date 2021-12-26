@@ -3,4 +3,10 @@
 .container{
     @include wrapper(60%);
     margin-top: 5rem;
+    line-height: 2.3;
+    .title{
+        @include mediaQ(500px){
+            font-size: 1.3rem;
+        }
+    }
 }

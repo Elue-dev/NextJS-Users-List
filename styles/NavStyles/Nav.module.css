@@ -32,4 +32,15 @@
     margin-left: 2rem;
   }
 }
+
+.nav .image {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .image {
+    width: 60%;
+    height: 60%;
+  }
+}
 /*# sourceMappingURL=Nav.module.css.map */

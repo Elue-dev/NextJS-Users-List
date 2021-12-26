@@ -3,5 +3,12 @@
   margin: auto;
   width: 60%;
   margin-top: 5rem;
+  line-height: 2.3;
+}
+
+@media (max-width: 500px) {
+  .container .title {
+    font-size: 1.3rem;
+  }
 }
 /*# sourceMappingURL=UserStyles.module.css.map */

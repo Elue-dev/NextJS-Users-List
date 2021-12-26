@@ -3,8 +3,15 @@
 .container{
     @include wrapper(60%);
     margin-top: 3rem;
+    @include mediaQ(500px){
+        @include wrapper(85%);
+        margin-top: 4rem;
+    }
     .title{
         text-align: center;
+        @include mediaQ(500px){
+            font-size: 1.7rem;
+        }
     }
     .name{
         background: #fff;

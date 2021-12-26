@@ -5,8 +5,23 @@
   margin-top: 3rem;
 }
 
+@media (max-width: 500px) {
+  .container {
+    max-width: 1300px;
+    margin: auto;
+    width: 85%;
+    margin-top: 4rem;
+  }
+}
+
 .container .title {
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  .container .title {
+    font-size: 1.7rem;
+  }
 }
 
 .container .name {

@@ -2,10 +2,12 @@
 
 .container{
     @include wrapper(80%);
-    text-align: center;
     padding-top: 4rem;
-    font-weight: 700;
+    font-weight: 500;
     @include mediaQ(500px){
         padding-top: 9rem;
+    }
+    code{
+        margin: 0 .4rem;
     }
 }

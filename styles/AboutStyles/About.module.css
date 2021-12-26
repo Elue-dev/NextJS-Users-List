@@ -2,9 +2,8 @@
   max-width: 1300px;
   margin: auto;
   width: 80%;
-  text-align: center;
   padding-top: 4rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @media (max-width: 500px) {
@@ -12,4 +11,8 @@
     padding-top: 9rem;
   }
 }
-/*# sourceMappingURL=Footer.module.css.map */
+
+.container code {
+  margin: 0 .4rem;
+}
+/*# sourceMappingURL=About.module.css.map */

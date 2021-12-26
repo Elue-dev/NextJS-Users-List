@@ -33,7 +33,7 @@ const users = ({ user }) => {
         <>
         <Meta title={`${user.name}`} />
         <div className={userStyles.container}>
-            <h2>{user.name}</h2>
+            <h2 className={userStyles.title}>{user.name}</h2>
             <p><b>Username:</b> {user.username}</p>
             <p><b>Email:</b> {user.username}</p>
             <p><b>Address:</b> {`${user.address.suite}, ${user.address.street}, ${user.address.city}`}</p>

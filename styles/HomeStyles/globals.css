@@ -16,3 +16,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@media(max-width: 500px){
+  *{
+    font-size: .9rem;
+  }
+}
