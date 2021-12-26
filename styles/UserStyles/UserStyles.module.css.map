@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,CAAA;ECMN,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,IAAI;EACZ,KAAK,EDPY,GAAG;EACpB,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "UserStyles.module.scss",
+        "../GlobalStyles/global.scss"
+    ],
+    "names": [],
+    "file": "UserStyles.module.css"
+}

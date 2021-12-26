@@ -1,0 +1,8 @@
+@import '../GlobalStyles/global.scss';
+
+.container{
+    @include wrapper(80%);
+    text-align: center;
+    padding-top: 4rem;
+    font-weight: 700;
+}

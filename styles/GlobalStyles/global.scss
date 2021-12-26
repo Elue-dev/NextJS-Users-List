@@ -1,0 +1,18 @@
+@mixin flexBox($justify, $direction){
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin wrapper($width){
+    max-width: 1300px;
+    margin: auto;
+    width: $width;
+}
+
+@mixin mediaQ ($respond){
+    @media (max-width: $respond){
+        @content;
+    }
+}

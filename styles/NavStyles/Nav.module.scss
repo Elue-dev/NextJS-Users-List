@@ -1,0 +1,17 @@
+@import '../GlobalStyles/global.scss';
+
+.container{
+    border-bottom: 2px solid #333;
+    .nav{
+        @include flexBox(space-between, row);
+        @include wrapper(80%);
+        .list li{
+            display: inline-block;
+            margin-left: 3rem;
+            font-size: 1.2rem;
+            @include mediaQ(500px){
+                margin-left: 2rem;
+            }
+        }
+    }
+}

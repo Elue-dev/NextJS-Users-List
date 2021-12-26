@@ -1,0 +1,26 @@
+.container {
+  max-width: 1300px;
+  margin: auto;
+  width: 60%;
+  margin-top: 3rem;
+}
+
+.container .title {
+  text-align: center;
+}
+
+.container .name {
+  background: #fff;
+  -webkit-transition: .1s ease;
+  transition: .1s ease;
+}
+
+.container .name:hover {
+  border-left: 5px solid #000;
+}
+
+.container .name .text {
+  padding: .5rem;
+  margin-left: 1rem;
+}
+/*# sourceMappingURL=Home.module.css.map */

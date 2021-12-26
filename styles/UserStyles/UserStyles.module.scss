@@ -1,0 +1,6 @@
+@import '../GlobalStyles//global.scss';
+
+.container{
+    @include wrapper(60%);
+    margin-top: 5rem;
+}
