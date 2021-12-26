@@ -4,7 +4,7 @@ import aboutStyles from '../styles/AboutStyles/About.module.css'
 const about = () => {
     return ( 
         <>
-            <Meta title='About' />
+            <Meta title='User List App || About' />
             <div className={aboutStyles.container}>
                 <p>Application built with Next JS.<br/>
                     Posts were fetched from a REST API called JSON Placeholder,

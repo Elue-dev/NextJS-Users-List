@@ -31,7 +31,7 @@ export const getStaticProps = async (context) => {
 const users = ({ user }) => {
     return ( 
         <>
-        <Meta title={`${user.name}`} />
+        <Meta title={`User List App || ${user.name}`} />
         <div className={userStyles.container}>
             <h2 className={userStyles.title}>{user.name}</h2>
             <p><b>Username:</b> {user.username}</p>

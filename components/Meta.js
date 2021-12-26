@@ -14,7 +14,7 @@ const Meta = ({ title, keywords, description }) => {
 }
 
 Meta.defaultProps = {
-  title: 'User List App',
+  title: 'User List App || Home',
   keywords: 'web development, programming nextjs',
   description: 'Getting users from an API using Next JS',
 }
